@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "An Introduction of Sorts"
+date:   2016-04-07 00:50:50 -0500
+categories: jekyll update
+---
+Hello!
+
+Welcome to my website. I've made a few websites in the past, but most of them are no longer up. The personal ones I wasn't very good at keeping updated. I would become distracted by other pursuits and would then find that I'd need to dedicate a whole day just to updating my website (which admittedly had I paid more attention to it I could have avoided that scenario). But now there's github pages (yea, I know, its been here a while -- I was taking my time) and since I already use github for everything else it seems like the perfect way to keep everything updated and display my work. 
+
+Right now all thats here is the bare bones basic jekyll theme (a suitable placeholder for me until I finish a design that is more me) and this post. But soon I hope to have some applications and projects that I've been working on as well as the occasional blog post. 
+
+Til then,
+
+Octavia
+
+(Note: I'm keeping this text at the bottom for reference for myself for now. It's convenient.)
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
