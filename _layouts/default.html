@@ -4,17 +4,25 @@
   {% include head.html %}
 
   <body>
+    
+    <div class="wrapper">
 
-    {% include header.html %}
+      <div class="transbox">
+          
+        {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+        <div class="page-content">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </div>
+
+        {% include footer.html %}
+
       </div>
+
     </div>
-
-    {% include footer.html %}
-
+    
   </body>
 
 </html>

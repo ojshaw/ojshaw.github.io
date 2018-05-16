@@ -13,10 +13,26 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
+html {
+    background-image: $background-image;
+
+    height:100%;
+
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -24,7 +40,6 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
 }
-
 
 
 /**
@@ -110,8 +125,8 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $grey-color-semi-dark;
+    border-left: 4px solid $grey-color-semi-dark;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -130,7 +145,7 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $grey-color-semi-dark;
     border-radius: 3px;
     background-color: #eef;
 }
@@ -162,7 +177,7 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
-    @extend %clearfix;
+    @extend %clearfix; 
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
@@ -172,7 +187,15 @@ pre {
     }
 }
 
-
+/**
+ * Transbox
+ */
+.transbox {
+    background: $background-color-rgb;
+    -pie-background:  $background-color-rgb;
+    behavior: url(PIE.htc);
+    box-shadow: 5px 5px 40px 5px;
+}
 
 /**
  * Clearfix
@@ -200,7 +223,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $grey-color-semi-dark;
         }
     }
 }

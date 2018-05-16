@@ -3,10 +3,10 @@
 # Base url
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title: Octavia Shaw
+title: Wild Thoughts
 email: shawoj93@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Website and Blog of Octavia Shaw! Here you will find projects that I am working on and blog posts things that interest me in the tech world.
+  Here you will find projects that I am working on and blog posts things that interest me in the tech world.
 
 url: "https://ojshaw.github.io"
 
