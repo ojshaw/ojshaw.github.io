@@ -10,10 +10,10 @@ permalink: /resume/
 2011 - 2015
 
 ## Technical Skills
-+ Javascript (2.5 years), HTML/CSS (6 Years)
++ Javascript (2.5 years), HTML/CSS (5 Years)
 + Ruby/Rails (1 year), Python/Django (2 years)
-+ C (3 years), Java (1 year)
-+ MySQL (1.5 years), PostgreSQL (<1 year), Access SQL (1.5 years)
++ C (3 years), Java (1 year), Rust (<1 year)
++ MySQL (1.5 years), PostgreSQL (<1 year), Access SQL (1 years)
 
 ## Experience
 ### Research, Data, and Web Assistant, *Accreditation Council for Graduate Medical Education*
