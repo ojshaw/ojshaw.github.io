@@ -22,6 +22,7 @@
 .site-nav {
 	text-align: center;
   padding-bottom: $spacing-unit / 2;
+  font-size: $big-font-size;
 
 	.nav-trigger {
 		display: none;
@@ -188,3 +189,17 @@
   @include media-query($on-laptop) {
   }
 }
+
+/**
+ * Resume
+ */
+
+.resume-name {
+  float: left;
+}
+
+ .download-box {
+  font-size: $small-font-size;
+  display: block;
+  float: right;
+ }

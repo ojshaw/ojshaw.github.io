@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
  * Basic Stylin
 g */
 body {
-	font: $base-font-weight #{$big-font-size}/#{$base-line-height} $base-font-family;
+	font: $base-font-weight #{$small-font-size}/#{$base-line-height} $base-font-family;
 	background: $background-image;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -66,6 +66,10 @@ h1 {
 
 h2 {
 	font-size: $med-font-size;
+}
+
+h3 {
+	font-weight: 600;
 }
 /**
  * Links
