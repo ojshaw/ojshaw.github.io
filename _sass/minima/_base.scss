@@ -4,53 +4,53 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0px;
-    padding: 0px;
-    font-weight: $base-font-weight;
+		margin: 0px;
+		padding: 0px;
+		font-weight: $base-font-weight;
 }
 
 /**
  * Basic Stylin
 g */
 body {
-  font: $base-font-weight #{$big-font-size}/#{$base-line-height} $base-font-family;
-  background: $background-image;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-  
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
-  font-kerning: normal;
-  display: flex;
-  min-height:100vh;
-  flex-direction: column;
+	font: $base-font-weight #{$big-font-size}/#{$base-line-height} $base-font-family;
+	background: $background-image;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-feature-settings: "kern" 1;
+		 -moz-font-feature-settings: "kern" 1;
+			 -o-font-feature-settings: "kern" 1;
+					font-feature-settings: "kern" 1;
+	font-kerning: normal;
+	display: flex;
+	min-height:100vh;
+	flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+	margin-bottom: $spacing-unit / 2;
 }
 
 /**
  * Lists
  */
 ul, ol {
-  margin-left: $spacing-unit;
+	margin-left: $spacing-unit;
 }
 
 li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
-  }
+	> ul,
+	> ol {
+		margin-bottom: 0;
+	}
 }
 
 /**
@@ -71,39 +71,39 @@ h2 {
  * Links
  */
  a { 
- 	color: $link-color-n;
- 	text-decoration: none;
+	color: $link-color-n;
+	text-decoration: none;
 
- 	&:visited {
- 		color: $link-color-v;
- 	}
+	&:visited {
+		color: $link-color-v;
+	}
 
- 	&:hover{
- 		color: $text-color;
+	&:hover{
+		color: $text-color;
 
- 	}
+	}
 
- 	.social-media-list &:hover {
- 		text-decoration: none;
- 	}
+	.social-media-list &:hover {
+		text-decoration: none;
+	}
 
- 	.header &:hover {
- 		text-decoration: none;
- 	}
+	.header &:hover {
+		text-decoration: none;
+	}
  }
 
  /**
  * Blockquotes
  */
 blockquote {
-  color: $text-color;
-  border-left: 4px solid $top-border;
-  padding-left: $spacing-unit / 2;
-  
+	color: $text-color;
+	border-left: 4px solid $top-border;
+	padding-left: $spacing-unit / 2;
+	
 
-  > :last-child {
-    margin-bottom: 0;
-  }
+	> :last-child {
+		margin-bottom: 0;
+	}
 }
 
  /**
@@ -111,38 +111,38 @@ blockquote {
  */
 pre,
 code {
-  color: #333;
-  background-color: $text-color;
+	color: #333;
+	background-color: $text-color;
 }
 
 code {
-  padding: 1px 5px;
+	padding: 1px 5px;
 }
 
 pre {
-  padding: 8px 12px;
-  overflow-x: auto;
+	padding: 8px 12px;
+	overflow-x: auto;
 
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
+	> code {
+		border: 0;
+		padding-right: 0;
+		padding-left: 0;
+	}
 }
 
 .wrapper {
 	color: $text-color;
 	max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit; 
+	max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: $spacing-unit;
+	padding-left: $spacing-unit; 
 
 	
 	@extend %clearfix;
 
-  @include media-query($on-laptop) {
+	@include media-query($on-laptop) {
 		max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
 		max-width:         calc(#{$content-width} - (#{$spacing-unit}));
 		padding-right: $spacing-unit / 2;
@@ -156,9 +156,9 @@ pre {
  * Clearfix
  */
 %clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 /**
@@ -166,16 +166,16 @@ pre {
  */
 
 .svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    fill: #{$text-color};
-    padding-right: 5px;
-    vertical-align: text-top;
+		width: 16px;
+		height: 16px;
+		display: inline-block;
+		fill: #{$text-color};
+		padding-right: 5px;
+		vertical-align: text-top;
 }
 
 .social-media-list {
-  li + li {
-    padding-top: 5px;
-  }
+	li + li {
+		padding-top: 5px;
+	}
 }
